@@ -9,7 +9,7 @@ class PageController extends Controller {
     function index () {
     $data = Movie::all();
 
-    dump($data);
+    // dump($data);
 
     return view('home', compact('data'));
     }
