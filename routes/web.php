@@ -13,6 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// rotta con cui richiamo la funzione all'interno del controller PageController
+// @ -> mi richiama la funzione index nel controller
+Route::get('/', 'PageController@index')->name('home');
