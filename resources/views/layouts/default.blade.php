@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Home</title>
+    <title>BoolMovies</title>
 
     {{-- richiamo al mio app.css --}}
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
@@ -20,8 +20,12 @@
 
 <body>
 
-    <header>
+    <header class="border-bottom border-4 border-warning">
+
+
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">BoolMovies</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,7 +55,7 @@
                     </ul>
                     <form class="d-flex">
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-secondary" type="submit">Search</button>
+                        <button class="btn btn-dark btn-outline-warning" type="submit">Search</button>
                     </form>
                 </div>
             </div>
@@ -68,6 +72,7 @@
         {{-- segnaposto --}}
     </main>
 
+   
 
 </body>
 
