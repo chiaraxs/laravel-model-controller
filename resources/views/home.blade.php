@@ -11,7 +11,7 @@
                     <h5 class="card-title">Original Title: {{$movie->original_title}}</h5>
                     <p class="card-text">Nationality: {{$movie->nationality}}</p>
                     <p class="card-text">Date: {{$movie->date}}</p>
-                    <p class="card-text">Vote: {{$movie->vote}}</p>
+                    <p class="card-text">Vote: {{$movie->vote}} <i class="fas fa-star"></i></p>
                     <a href="#" class="btn btn-dark">Go!</a>
                 </div>
             </div>

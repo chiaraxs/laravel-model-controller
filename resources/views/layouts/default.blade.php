@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,8 +11,13 @@
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     {{-- /richiamo al mio app.css --}}
 
+    {{-- fontawesome --}}
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    {{-- fontawesome --}}
+
 
 </head>
+
 <body>
 
     <header>
@@ -54,6 +60,9 @@
     </header>
 
     <main>
+        <div class="container d-flex justify-content-center">
+            <img src="/img/Original_Film_logo.svg.png" alt="logo" class="mt-5" width="600">
+        </div>
         {{-- segnaposto --}}
         @yield('main')
         {{-- segnaposto --}}
@@ -61,4 +70,5 @@
 
 
 </body>
+
 </html>
